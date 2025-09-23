@@ -404,11 +404,13 @@ nav {
 
     .about-p p {
         font-size: 16px;
-        width: 330px;
+        /* width: 330px; */
+        text-align: center;
+        padding-left: 20px;
     }
 
     .box1 {
-        padding: 0cap;
+       
         padding-top: 32px;
     }
 }
@@ -664,7 +666,15 @@ nav {
 }
 
 /* Card Container */
-.project-card,
+.project-card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    max-width: 360px;
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 .project-card-civil {
     background: #fff;
     border-radius: 16px;
@@ -778,7 +788,7 @@ nav {
 
 /* contact */
 .contact-wrapper {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   margin: 40px auto;
   padding: 20px;
 }
@@ -947,6 +957,7 @@ nav {
   }
   .contact-form{
 width: 300px;
+padding:20px;
   }
 }
 
