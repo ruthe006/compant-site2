@@ -189,7 +189,9 @@ nav {
     padding-top: 32px;
     padding-left: 36.5px;
 }
-
+#btn{
+  text-decoration: none;
+}
 .hero-p p {
     color: #75808A;
     font-size: 20px;
@@ -839,7 +841,9 @@ nav {
   margin-bottom: 20px;
   color: #3C77C3;
 }
-
+#email a{
+  color: #555;
+}
 /* Info Blocks */
 .info-block {
   display: flex;
@@ -908,7 +912,10 @@ nav {
   line-height: 1.6;
   margin-bottom: 20px;
 }
-
+#a{
+  text-decoration: none;
+  color: white;
+}
 .footer-socials a img {
   width: 36px;
   height: 36px;

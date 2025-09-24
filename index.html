@@ -21,9 +21,10 @@
     <div class="nav-link">
       <ul>
         <li><a href="index.html" style="color:#0077cc;">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#service">Services</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <button id="getStartedBtn" type="button">Get Started</button>
 
@@ -43,7 +44,7 @@
       </div>
       <div class="hero-btns">
         <button id="hero-btn1">Start Your Project</button>
-        <button id="hero-btn2">Explore Services</button>
+       <a id="btn" href="#service"> <button id="hero-btn2">Explore Services</button> </a>
       </div>
     </div>
     <div class="hero-right">
@@ -87,7 +88,7 @@
     </div>
   </div>
 </section>
-<div class="our-service">
+<div id="service" class="our-service">
   <div class="our-heading">
     <h1>Our <span style="color: #6F9AD2;">Services</span></h1>
   </div>
@@ -146,12 +147,12 @@
   <div class="btn-box">
     <h1>Ready to Start Your Project?</h1>
     <p>Let's discuss how we can help bring your vision to life with our innovative solutions and professional expertise.</p>
-    <button>Get Started Today</button>
+    <button id="gettouch">Get Started Today</button>
   </div>
 </div>
 
 <!-- Our Projects -->
-<div class="our-proj">
+<div id="project" class="our-proj">
   <div class="Our-pro-heading">
     <h1>Our <span style="color: #6F9AD2;">Services</span></h1>
   </div>
@@ -171,7 +172,80 @@
   <!-- Portfolio Grid -->
   <div class="portfolio">
     <!-- Example Card -->
-    <div class="project-card" data-category="civil">
+    <!-- Duplicate as needed -->
+    <div class="project-card" data-category="it">
+      <div class="project-image">
+      <a href="https://www.behance.net/gallery/223148667/CustomBites-Food-Delivery-App-for-Normal-Blind-user"><img src="ui design.png" alt="Project Image"></a>  
+        <span class="project-tag">IT</span>
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">UX/UI Design</h3>
+        <p class="project-desc">Custom Bites – Food Delivery App</p>
+        <div class="project-tech">
+          <span>Design-Thinking</span>
+          <span>UX research</span>
+          <span>Figma</span>
+        </div>
+      </div>
+    </div>
+ <div class="project-card" data-category="it">
+      <div class="project-image">
+        <a href="#"><img src="hostel.jpeg" alt="Project Image"></a>
+        <span class="project-tag">IT</span>
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Frontend-Web-development</h3>
+        <p class="project-desc"> Food Delivery E-commerce website.</p>
+        <div class="project-tech">
+          <span>React</span>
+          <span>Tailwind CSS</span>
+          <!-- <span>MongoDB</span> -->
+        </div>
+      </div>
+    </div> <div class="project-card" data-category="it">
+      <div class="project-image">
+        <img src="short.jpeg" alt="Project Image">
+        <span class="project-tag">IT</span>
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Backend development</h3>
+        <p class="project-desc">Full Stack URL Shortener as part of a technical assessment</p>
+        <div class="project-tech">
+          <span>React</span>
+          <span>Spring Boot </span>
+          <span>Database: H2 (in-memory)</span>
+        </div>
+      </div>
+    </div> <div class="project-card" data-category="it">
+      <div class="project-image">
+        <img src="E-Commerce Platform.png" alt="Project Image">
+        <span class="project-tag">IT</span>
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">IT Solution</h3>
+        <p class="project-desc">Custom IT service solutions for businesses and startups.</p>
+        <div class="project-tech">
+          <span>React</span>
+          <span>Node.js</span>
+          <span>MongoDB</span>
+        </div>
+      </div>
+    </div> <div class="project-card" data-category="it">
+      <div class="project-image">
+        <img src="thumbnail design.png" alt="Project Image">
+        <span class="project-tag">IT</span>
+      </div>
+      <div class="project-content">
+        <h3 class="project-title">Graphic Design</h3>
+        <p class="project-desc">UX/UI Design Course Thumbnail Design.</p>
+        <div class="project-tech">
+          <span>Figma</span>
+          <span>aesthetic</span>
+          <!-- <span>MongoDB</span> -->
+        </div>
+      </div>
+    </div>
+        <div class="project-card" data-category="civil">
       <div class="project-image">
         <img src="E-Commerce Platform.png" alt="Project Image">
         <span class="project-tag-civil">Civil</span>
@@ -187,80 +261,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Duplicate as needed -->
-    <div class="project-card" data-category="it">
-      <div class="project-image">
-        <img src="E-Commerce Platform.png" alt="Project Image">
-        <span class="project-tag">IT</span>
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">IT Solution</h3>
-        <p class="project-desc">Custom IT service solutions for businesses and startups.</p>
-        <div class="project-tech">
-          <span>React</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
-        </div>
-      </div>
-    </div>
- <div class="project-card" data-category="it">
-      <div class="project-image">
-        <img src="E-Commerce Platform.png" alt="Project Image">
-        <span class="project-tag">IT</span>
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">IT Solution</h3>
-        <p class="project-desc">Custom IT service solutions for businesses and startups.</p>
-        <div class="project-tech">
-          <span>React</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
-        </div>
-      </div>
-    </div> <div class="project-card" data-category="it">
-      <div class="project-image">
-        <img src="E-Commerce Platform.png" alt="Project Image">
-        <span class="project-tag">IT</span>
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">IT Solution</h3>
-        <p class="project-desc">Custom IT service solutions for businesses and startups.</p>
-        <div class="project-tech">
-          <span>React</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
-        </div>
-      </div>
-    </div> <div class="project-card" data-category="it">
-      <div class="project-image">
-        <img src="E-Commerce Platform.png" alt="Project Image">
-        <span class="project-tag">IT</span>
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">IT Solution</h3>
-        <p class="project-desc">Custom IT service solutions for businesses and startups.</p>
-        <div class="project-tech">
-          <span>React</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
-        </div>
-      </div>
-    </div> <div class="project-card" data-category="it">
-      <div class="project-image">
-        <img src="E-Commerce Platform.png" alt="Project Image">
-        <span class="project-tag">IT</span>
-      </div>
-      <div class="project-content">
-        <h3 class="project-title">IT Solution</h3>
-        <p class="project-desc">Custom IT service solutions for businesses and startups.</p>
-        <div class="project-tech">
-          <span>React</span>
-          <span>Node.js</span>
-          <span>MongoDB</span>
-        </div>
-      </div>
-    </div>
     <!-- Add more cards as needed -->
   </div>
 </div>
@@ -270,10 +270,10 @@
   <div class="btn-box">
     <h1>Have a Project in Mind?</h1>
     <p>We'd love to hear about your project ideas and discuss how we can help bring them to life.</p>
-    <button>Start Your Project</button>
+    <button id="gettouch">Start Your Project</button>
   </div>
 </div>
-<section class="contact-wrapper">
+<section id="contact" class="contact-wrapper">
   <!-- Header -->
   <div class="contact-header">
     <h1>Get In <span>Touch</span></h1>
@@ -317,24 +317,24 @@
         <h2>Contact Information</h2>
         <div class="info-block">
           <img src="email-icon.svg" alt="Email">
-          <div>
-            <p>contact@abccompany.com</p>
-            <p>support@abccompany.com</p>
+          <div id="email">
+            <a id="a" href="crevasolution@gmail.com">crevasolution@gmail.com</a>
+            <!-- <p>support@abccompany.com</p> -->
           </div>
         </div>
         <div class="info-block">
           <img src="phone-icon.svg" alt="Phone">
           <div>
-            <p>+1 (555) 123-4567</p>
-            <p>+1 (555) 987-6543</p>
+            <p>+91 94451 04205</p>
+            <p>+91 9043341815</p>
           </div>
         </div>
         <div class="info-block">
           <img src="location-icon.svg" alt="Location">
           <div>
-            <p>123 Innovation Street</p>
-            <p>Tech City, TC 12345</p>
-            <p>United States</p>
+            <p>Kallakurichi</p>
+            <!-- <p>Tech City, TC 12345</p>
+            <p>United States</p> -->
           </div>
         </div>
       </div>
@@ -343,9 +343,9 @@
       <div class="social-box">
         <h3>Follow Us</h3>
         <div class="social-icons">
-          <img src="Link.svg" alt="LinkedIn">
-          <img src="Link-1.svg" alt="Instagram">
-          <img src="Link-2.svg" alt="Facebook">
+        <a href="https://www.linkedin.com/company/creva-solution/"><img src="Link.svg" alt="LinkedIn" /></a>
+        <a href="https://www.instagram.com/crevasolution06?igsh=MTlzcWdpcXo0ZXV2OQ=="><img src="Link-1.svg" alt="Instagram" /></a>
+        <a href="#"><img src="Link-2.svg" alt="Facebook" /></a>
         </div>
       </div>
     </div>
@@ -362,9 +362,9 @@
         civil design solutions with fresh perspectives and modern approaches.
       </p>
       <div class="footer-socials">
-        <a href="#"><img src="Link.svg" alt="LinkedIn" /></a>
-        <a href="#"><img src="Link-2.svg" alt="Instagram" /></a>
-        <a href="#"><img src="Link.svg" alt="Facebook" /></a>
+        <a href="https://www.linkedin.com/company/creva-solution/"><img src="Link.svg" alt="LinkedIn" /></a>
+        <a href="https://www.instagram.com/crevasolution06?igsh=MTlzcWdpcXo0ZXV2OQ=="><img src="Link-1.svg" alt="Instagram" /></a>
+        <a href="#"><img src="Link-2.svg" alt="Facebook" /></a>
       </div>
     </div>
 
@@ -372,19 +372,19 @@
     <div class="footer-links">
       <h3>Quick Links</h3>
       <ul>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#service">Services</a></li>
+        <!-- <li><a href="team.html">Team</a></li> -->
+        <li><a href="#project">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
 
     <!-- Right Section -->
     <div class="footer-contact">
       <h3>Contact Info</h3>
-      <p>📧 contact@abccompany.com</p>
-      <p>📞 +1 (555) 123-4567</p>
+      <a id="a" href="crevasolution@gmail.com">📧 crevasolution@gmail.com</a>
+      <p>📞 +91 94451 04205</p>
       <p>📍 kallakurichi</p>
     </div>
   </div>
